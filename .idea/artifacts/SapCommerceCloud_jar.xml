@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SapCommerceCloud:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SapCommerceCloud_jar</output-path>
+    <root id="archive" name="SapCommerceCloud.jar">
+      <element id="module-output" name="SpaceInvaders" />
+    </root>
+  </artifact>
+</component>
