@@ -20,11 +20,11 @@ public class Gui extends JFrame implements ActionListener {
     public Gui() {
         this.setBounds(0, 0, 1400, 800);
 
-        this.background = new ImageIcon("C:\\wrk\\SapCommerceCloud\\src\\gameVersuch\\galaxy.jpg");
-        this.background2 = new ImageIcon("C:\\wrk\\SapCommerceCloud\\src\\gameVersuch\\galaxy2.jpg");
-        this.rocket = new ImageIcon("C:\\wrk\\SapCommerceCloud\\src\\gameVersuch\\spacecraftMitFlamme.png");
-        this.rocket2 = new ImageIcon("C:\\wrk\\SapCommerceCloud\\src\\gameVersuch\\spacecraftOhneFlamme.png");
-        this.coin = new ImageIcon("C:\\wrk\\SapCommerceCloud\\src\\gameVersuch\\zweiterVersuch.gif");
+        this.background = new ImageIcon("src\\gameVersuch\\galaxy.jpg");
+        this.background2 = new ImageIcon("src\\gameVersuch\\galaxy2.jpg");
+        this.rocket = new ImageIcon("src\\gameVersuch\\spacecraftMitFlamme.png");
+        this.rocket2 = new ImageIcon("src\\gameVersuch\\spacecraftOhneFlamme.png");
+        this.coin = new ImageIcon("src\\gameVersuch\\zweiterVersuch.gif");
         this.backgroundOne = new JLabel(background);
         this.backgroundOne.setBounds(0, 0, 700, 770);
         this.backgroundOne.setVisible(true);
